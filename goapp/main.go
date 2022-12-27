@@ -31,7 +31,6 @@ func main() {
 	for i := 0; i < len(text); i++ {
 		if text[i] == string(word) {
 			j++
-			break
 		}
 	}
 	if j == 0 {
